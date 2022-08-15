@@ -1,0 +1,8 @@
+resolver: lts-18.28
+  # url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/28.yaml
+
+packages:
+  - .
+  - A
+  - A/B
+  - A/C

@@ -1,0 +1,49 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "hn-nested:lib"
+
+    - path: "./app/Main.hs"
+      component: "hn-nested:exe:hn-nested-exe"
+
+    - path: "./app/Paths_hn_nested.hs"
+      component: "hn-nested:exe:hn-nested-exe"
+
+    - path: "./test"
+      component: "hn-nested:test:hn-nested-test"
+
+    - path: "A/src"
+      component: "A:lib"
+
+    - path: "A/app/Main.hs"
+      component: "A:exe:A-exe"
+
+    - path: "A/app/Paths_A.hs"
+      component: "A:exe:A-exe"
+
+    - path: "A/test"
+      component: "A:test:A-test"
+
+    - path: "A/B/src"
+      component: "B:lib"
+
+    - path: "A/B/app/Main.hs"
+      component: "B:exe:B-exe"
+
+    - path: "A/B/app/Paths_B.hs"
+      component: "B:exe:B-exe"
+
+    - path: "A/B/test"
+      component: "B:test:B-test"
+
+    - path: "A/C/src"
+      component: "C:lib"
+
+    - path: "A/C/app/Main.hs"
+      component: "C:exe:C-exe"
+
+    - path: "A/C/app/Paths_C.hs"
+      component: "C:exe:C-exe"
+
+    - path: "A/C/test"
+      component: "C:test:C-test"
